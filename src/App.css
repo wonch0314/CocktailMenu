@@ -1,0 +1,28 @@
+#root {
+  margin-right: 2vw;
+  margin-left: 2vw;
+}
+
+body {
+  background-color: #4f5565;
+  color: #b49b5a;
+  font-family: "CONTENT";
+}
+
+@font-face {
+  font-family: "MAIN";
+  src: url("./assets/HSBombaram3.0_Regular.ttf");
+}
+
+@font-face {
+  font-family: "CONTENT";
+  src: url("./assets/tway_air.ttf");
+}
+
+.kill-scroll::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera*/
+}
+
+body::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera*/
+}
